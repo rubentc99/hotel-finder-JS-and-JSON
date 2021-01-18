@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoteltropia</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script src="js/motor.js"></script>
+  </head>
+  <body>
+
+    <div class="contenedor1">
+      <div class="contenedor1-1">
+        <h1><span class="color1">H</span>otel<span class="color1">t</span>rop<span class="color1">í</span>a</h1>
+      </div>
+      <div class="contenedor1-2">
+        <input type="text" id="c1" class="control1" placeholder="Hotel, Ciudad, Categoría, Precio..."/>
+        <button type="button" id="b1" class="control2 mano1" onclick="buscar1('c1')">Buscar</button>
+      </div>
+    </div>
+
+    <div class="contenedor2" id="resultado0">
+      <div id="contenedor0" class="contenedor2-1 oculto">
+        <h2 id="titulo0" class="titulo0">Que pena, no hay resultados.</h2>
+      </div>
+    </div>
+
+    <div class="contenedor2" id="resultado1">
+
+      <!-- Modelo compositivo de los datos de los hoteles -->
+      <!--
+      <div class="contenedor2-1">
+        <div class="contenedor2-1-1">
+          <div class="contenedor2-1-1-1">
+            <h2 class="titulo1">Hotel Palace</h2>
+            <p class="texto1">Madrid</p>
+            <p class="texto1">5 estrellas</p>
+          </div>
+          <div class="contenedor2-1-1-2">
+            <p class="texto1 marco1 mano1">150 € por noche</p>
+          </div>
+        </div>
+        <div class="contenedor2-1-2">
+          <img class="imagen1" src="json/bd1-img/palace.jpg">
+        </div>
+      </div>
+      -->   
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "hoteles": [
+    {
+      "nombre": "Hotel Ritz",
+      "ciudad": "Madrid",
+      "categoria": 5,
+      "pvp": 150,
+      "img": "json/bd1-img/ritz.jpg"
+    },
+    {
+      "nombre": "Hotel Palace",
+      "ciudad": "Madrid",
+      "categoria": 5,
+      "pvp": 160,
+      "img": "json/bd1-img/palace.jpg"
+    },
+    {
+      "nombre": "Hotel Alfonso XIII",
+      "ciudad": "Sevilla",
+      "categoria": 5,
+      "pvp": 140,
+      "img": "json/bd1-img/alfonsoxiii.jpg"
+    },
+    {
+      "nombre": "Hotel Avenida Palace",
+      "ciudad": "Barcelona",
+      "categoria": 4,
+      "pvp": 120,
+      "img": "json/bd1-img/avenidapalace.jpg"
+    }
+  ]
+}
